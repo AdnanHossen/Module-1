@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <title>  Module 1 Test </title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="bg-white p-5">
+
+    <div class=" bg-body mb-5 ps-3 pt-3 pb-4 w-25 h-75 border rounded-pill shadow-lg"> 
+      hello
+    </div>
+
+
+    <div class=" bg-warning mb-3 p-4 text-primary border-top border-danger rounded">
+      hello
+    </div>
+
+    <div class=" bg-info mb-3 ">
+      hello
+    </div>
+
+    <div class="  bg-dark text-white mb-3">
+      hello
+    </div>
+
+    <div class=" bg-primary">
+      hello
+    </div>
+
+  </div>
+
+  <br><br><br>
+
+  <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+    <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+    <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+    <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+    <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+    <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+  <table class="table mb-5 table-dark table-striped table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide w-25 border mb-4 img-thumbnail text-center rounded mx-auto d-block" style="height: 200px;" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active h-75">
+        <img src="./images/canal-3897510_1920.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item h-75">
+        <img src="./images/cat-6463284_1920.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item h-75">
+        <img src="./images/family-6398107_1920.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item h-75">
+        <img src="./images/meerkat-6392737_1920.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="./images/mountains-6403935_1920.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="./images/weevil-6319220_1920.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+  </div>
+
+
+  <br> <br> <br> <br> <br>
+
+  <div class="card-group p-2">
+    <div class="card" style="width: 18rem;">
+      <img src="./images/weevil-6319220_1920.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="./images/mountains-6403935_1920.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="./images/meerkat-6392737_1920.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="spinner-grow" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+
+
+  <div class="card-group">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
